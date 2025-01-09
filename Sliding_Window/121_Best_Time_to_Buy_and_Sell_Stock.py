@@ -3,8 +3,8 @@ class Solution:
         res = 0
         
         lowest = prices[0]
-        for price in prices:
-            if price < lowest:
-                lowest = price
-            res = max(res, price - lowest)
+        for p in prices:
+            if p < lowest:
+                lowest = p
+            res = max(res, p - lowest)
         return res
