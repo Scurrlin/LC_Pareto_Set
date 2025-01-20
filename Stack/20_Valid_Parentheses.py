@@ -9,7 +9,6 @@ class Solution:
             elif char in b_map.keys():
                 if not stack or b_map[char] != stack.pop():
                     return False
-        
         return not stack
         
 # b_map = bracket_map
