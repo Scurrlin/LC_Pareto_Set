@@ -4,3 +4,6 @@ class Solution:
             return False
         
         return sorted(s) == sorted(t)
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)

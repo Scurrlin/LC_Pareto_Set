@@ -8,3 +8,6 @@ class Solution:
             h_map[num] = i
 
 # h_map = hash_map
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

@@ -7,3 +7,6 @@ class Solution:
             a_map[sorted_w].append(w)
         
         return list(a_map.values())
+
+# Time Complexity: O(N * K log K)
+# Space Complexity: O(N * K)

@@ -13,3 +13,6 @@ class Solution:
         answer = [p[i] * s[i] for i in range(n)]
 
         return answer
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)

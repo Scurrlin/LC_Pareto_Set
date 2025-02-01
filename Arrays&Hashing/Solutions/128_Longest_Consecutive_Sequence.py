@@ -10,3 +10,6 @@ class Solution:
                     length += 1
                 longest = max(length, longest)
         return longest
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)
