@@ -18,3 +18,6 @@ class Solution:
                 else:
                     l = mid + 1
         return -1
+
+# Time Complexity: O(log N)
+# Space Complexity: O(1)

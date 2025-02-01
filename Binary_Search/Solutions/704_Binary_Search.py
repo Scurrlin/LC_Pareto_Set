@@ -11,3 +11,6 @@ class Solution:
             else:
                 return m
         return -1
+
+# Time Complexity: O(log N)
+# Space Complexity: O(1)
