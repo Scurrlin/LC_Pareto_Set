@@ -26,3 +26,6 @@ class Solution:
             if dfs(c) == False:
                 return []
         return output
+
+# Time Complexity: O(N + E)
+# Space Complexity: O(N + E)

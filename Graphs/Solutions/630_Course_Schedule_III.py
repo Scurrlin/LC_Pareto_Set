@@ -7,3 +7,6 @@ class Solution:
             curr += dur
             if curr > ld: curr += heapq.heappop(A)
         return len(A)
+
+# Time Complexity: O(N log N)
+# Space Complexity: O(N log N)

@@ -21,3 +21,6 @@ class Solution:
             for c in range(COLS):
                 area = max(area, dfs(r, c))
         return area
+
+# Time Complexity: O(M x N)
+# Space Complexity: O(M x N)
