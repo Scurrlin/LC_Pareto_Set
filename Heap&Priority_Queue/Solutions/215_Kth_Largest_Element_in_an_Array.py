@@ -9,3 +9,6 @@ class Solution:
                 heapq.heappush(heap, num)
         
         return heap[0]
+
+# Time Complexity: O(N log K)
+# Space Complexity: O(K)

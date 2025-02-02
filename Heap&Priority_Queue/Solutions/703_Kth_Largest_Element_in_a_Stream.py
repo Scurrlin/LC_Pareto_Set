@@ -1,6 +1,5 @@
 class KthLargest:
     def __init__(self, k: int, nums: List[int]):
-        # minHeap w/ K largest integers
         self.minHeap, self.k = nums, k
         heapq.heapify(self.minHeap)
         while len(self.minHeap) > k:
@@ -12,6 +11,5 @@ class KthLargest:
             heapq.heappop(self.minHeap)
         return self.minHeap[0]
 
-# Your KthLargest object will be instantiated and called as such:
-# obj = KthLargest(k, nums)
-# param_1 = obj.add(val)
+# Time Complexity: O(N log N)
+# Space Complexity: O(K)
