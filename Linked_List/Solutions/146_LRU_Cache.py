@@ -19,3 +19,6 @@ class LRUCache:
         self.dic[key] = value
         if len(self.dic) > self.capacity:
             self.dic.popitem(False)
+
+# Time Complexity: O(1)
+# Space Complexity: O(C)

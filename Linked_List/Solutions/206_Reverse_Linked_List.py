@@ -10,3 +10,6 @@ class Solution:
             current = next_node
         
         return prev
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)

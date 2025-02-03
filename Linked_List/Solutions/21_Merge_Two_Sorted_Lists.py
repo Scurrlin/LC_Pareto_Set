@@ -12,3 +12,6 @@ class Solution:
             current = current.next
         current.next = l1 if l1 else l2
         return temp.next
+
+# Time Complexity: O(N + M)
+# Space Complexity: O(1)

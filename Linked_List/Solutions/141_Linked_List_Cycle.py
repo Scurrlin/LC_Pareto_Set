@@ -8,3 +8,6 @@ class Solution:
             if slow == fast:
                 return True
         return False
+
+# Time Compexity: O(N)
+# Space Complexity: O(1)
