@@ -10,3 +10,6 @@ class Solution:
                 res[index] = i - index
             stack.append(i)
         return res
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)

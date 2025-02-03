@@ -12,3 +12,6 @@ class Solution:
         return not stack
         
 # b_map = bracket_map
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)
