@@ -13,3 +13,6 @@ class Solution:
                 l += 1
 
         return (r - l + 1)
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)

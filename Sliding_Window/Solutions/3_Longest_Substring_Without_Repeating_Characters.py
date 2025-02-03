@@ -11,3 +11,6 @@ class Solution:
             charSet.add(s[r])
             res = max(res, r - l + 1)
         return res
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)
