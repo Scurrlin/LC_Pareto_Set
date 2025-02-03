@@ -12,3 +12,6 @@ class Solution:
             if k == 0:
                 return curr.val
             curr = curr.right
+        
+# Time Complexity: O(H + k)
+# Space Complexity: O(H)

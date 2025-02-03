@@ -15,3 +15,6 @@ class Solution:
 
         dfs(root)
         return res
+
+# Time Complexity: O(N)
+# Space Complexity: O(H)

@@ -12,3 +12,6 @@ class Solution:
             return count
         
         return dfs(root, float('-inf'))
+
+# Time Complexity: O(N)
+# Space Complexity: O(H)

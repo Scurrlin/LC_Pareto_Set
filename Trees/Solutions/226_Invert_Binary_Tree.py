@@ -8,3 +8,6 @@ class Solution:
         self.invertTree(root.left)
         self.invertTree(root.right)
         return root
+
+# Time Complexity: O(N)
+# Space Complexity: O(H)
