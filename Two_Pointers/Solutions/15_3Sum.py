@@ -26,3 +26,6 @@ class Solution:
                         j += 1
         
         return res
+
+# Time Complexity: O(N^2)
+# Space Complexity: O(N)

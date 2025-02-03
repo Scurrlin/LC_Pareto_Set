@@ -5,3 +5,6 @@ class Solution:
             if a.isalpha() or a.isdigit():
                 new += a.lower()
         return (new == new[::-1])
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)

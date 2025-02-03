@@ -14,3 +14,6 @@ class Solution:
                 r -= 1
         
         return max_area
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)
