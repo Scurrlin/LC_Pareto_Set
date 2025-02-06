@@ -1,5 +1,6 @@
 class Solution:
-    def mergeTwoLists(self, l1, l2):
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        l1, l2 = list1, list2
         temp = ListNode(0)
         current = temp
         while l1 and l2:
