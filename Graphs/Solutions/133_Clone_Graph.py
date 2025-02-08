@@ -13,3 +13,6 @@ class Solution:
             return copy
 
         return dfs(node) if node else None
+
+# Time Complexity: O(N + E)
+# Space Complexity: O(N)
