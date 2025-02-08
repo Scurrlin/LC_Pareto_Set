@@ -8,10 +8,10 @@ class Solution:
 
             if total == t:
                 return[l + 1, r + 1]
-            elif total > t:
-                r -= 1
-            else:
+            elif total < t:
                 l += 1
+            else:
+                r -= 1
 
 # Time Complexity: O(N)
 # Space Complexity: O(1)

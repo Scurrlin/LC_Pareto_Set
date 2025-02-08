@@ -16,14 +16,14 @@ class Solution:
 
                 # Return 1-based indices
                 return[l + 1, r + 1]
-            elif total > t:
-
-                # Decrease sum by moving right pointer left
-                r -= 1
-            else:
+            elif total < t:
 
                 # Increase sum by moving left pointer right
                 l += 1
+            else:
+
+                # Decrease sum by moving right pointer left
+                r -= 1
 
 # Time Complexity: O(N)
 # Space Complexity: O(1)
