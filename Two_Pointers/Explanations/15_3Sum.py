@@ -23,14 +23,14 @@ class Solution:
                 # Compute sum of triplet
                 total = n[i] + n[j] + n[k]
 
-                if total > 0:
-
-                    # Reduce sum by moving right pointer left
-                    k -= 1
-                elif total < 0:
+                if total < 0:
 
                     # Increase sum by moving left pointer right
                     j += 1
+                elif total > 0:
+
+                    # Reduce sum by moving right pointer left
+                    k -= 1
                 else:
 
                     # Found a valid triplet
