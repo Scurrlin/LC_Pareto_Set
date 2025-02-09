@@ -18,7 +18,7 @@ class Solution:
             # If mid element is greater than end, the min must be in the right half
             if nums[mid] > nums[end]:
 
-                # Shirft right
+                # Shift right
                 start = mid + 1
 
             # Otherwise, the min is in the left half (including mid)    
