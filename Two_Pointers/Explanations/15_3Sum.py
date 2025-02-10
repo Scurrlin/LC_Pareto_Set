@@ -17,12 +17,10 @@ class Solution:
             # Two-pointer setup
             j = i + 1
             k = len(n) - 1
-
             while j < k:
 
                 # Compute sum of triplet
                 total = n[i] + n[j] + n[k]
-
                 if total < 0:
 
                     # Increase sum by moving left pointer right
