@@ -6,7 +6,6 @@ class Solution:
         f w i s:
             s_w = ''.j(s(w))
             a_m[s_w].a(w)
-        
         r l(a_m.v())
 
 # Time Complexity: O(N * K log K)

@@ -5,13 +5,10 @@ class Solution:
         s = [1] * n
 
         for i in range(1, n):
-            p[i] = p[i - 1] * nums[i - 1]
-        
+            p[i] = p[i - 1] * nums[i - 1]  
         for i in range(n - 2, -1, -1):
             s[i] = s[i + 1] * nums[i + 1]
-        
         answer = [p[i] * s[i] for i in range(n)]
-
         return answer
 
 # Time Complexity: O(N)

@@ -5,7 +5,6 @@ class Solution:
         for w in strs:
             sorted_w = ''.join(sorted(w))
             a_map[sorted_w].append(w)
-        
         return list(a_map.values())
 
 # Time Complexity: O(N * K log K)

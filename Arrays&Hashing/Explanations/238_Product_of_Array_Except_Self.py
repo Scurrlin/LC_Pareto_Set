@@ -18,7 +18,6 @@ class Solution:
         
         # Compute final answer by multiplying prefix and suffix products
         answer = [p[i] * s[i] for i in range(n)]
-
         return answer
 
 # Time Complexity: O(N)
