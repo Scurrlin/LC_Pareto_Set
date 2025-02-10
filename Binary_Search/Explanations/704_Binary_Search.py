@@ -8,12 +8,10 @@ class Solution:
 
             # Compute the middle index
             m = l + ((r - l)//2)
-
             if nums[m] > target:
 
                 # Search in the left half
                 r = m - 1
-
             elif nums[m] < target:
 
                 # Search in the right half

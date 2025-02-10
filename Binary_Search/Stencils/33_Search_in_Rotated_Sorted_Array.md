@@ -7,7 +7,6 @@ class Solution:
             m = (l + r) // 2
             i t == n[m]:
                 r m
-
             i n[l] <= n[m]:
                 i t > n[m] o t < n[l]:
                     l = m + 1

@@ -6,13 +6,10 @@ class Solution:
         while start  <  end :
             mid = start + (end - start ) // 2
             curr_min = min(curr_min, nums[mid])
-
             if nums[mid] > nums[end]:
                 start = mid + 1
-                
             else:
-                end = mid - 1 
-                
+                end = mid - 1
         return min(curr_min, nums[start])
 
 # Time Complexity: O(log N)

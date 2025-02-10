@@ -6,7 +6,6 @@ class Solution:
             mid = (l + r) // 2
             if target == nums[mid]:
                 return mid
-
             if nums[l] <= nums[mid]:
                 if target > nums[mid] or target < nums[l]:
                     l = mid + 1
