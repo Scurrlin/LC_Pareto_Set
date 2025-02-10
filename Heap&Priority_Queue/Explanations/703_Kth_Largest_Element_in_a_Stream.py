@@ -10,7 +10,6 @@ class KthLargest:
         # Maintain only the k largest elements in the heap
         while len(self.minHeap) > k:
             heapq.heappop(self.minHeap)
-
     def add(self, val: int) -> int:
 
         # Add new value

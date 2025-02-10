@@ -5,7 +5,6 @@ class KthLargest:
         h.h(s.m)
         w l(s.m) > k:
             h.h(s.m)
-
     d a(s, v: i) -> i:
         h.h(s.m, v)
         i l(s.m) > s.k:
