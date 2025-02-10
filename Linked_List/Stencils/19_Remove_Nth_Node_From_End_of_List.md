@@ -8,13 +8,10 @@ class Solution:
 
         f _ i r(n + 1):
             f = f.n
-
         w f i n N:
             f = f.n
             s = s.n
-
         s.n = s.n.n
-
         r d.n
 
 # Time Complexity: O(N)

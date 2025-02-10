@@ -3,6 +3,7 @@ class Solution:
         l1, l2 = list1, list2
         temp = ListNode(0)
         current = temp
+        
         while l1 and l2:
             if l1.val <= l2.val:
                 current.next = l1

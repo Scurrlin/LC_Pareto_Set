@@ -1,11 +1,13 @@
 class Solution:
     def reorderList(self, head: ListNode) -> None:
+        
         # Edge case: Empty or single-node list
         if not head or not head.next:
             return
         
         # Step 1: Find the middle of the list using slow & fast pointers
         slow, fast = head, head.next
+        
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next

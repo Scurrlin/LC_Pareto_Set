@@ -9,7 +9,6 @@ class Solution:
             c.n = p
             p = c
             c = n_n
-        
         r p
 
 # Time Complexity: O(N)

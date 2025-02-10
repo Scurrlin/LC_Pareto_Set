@@ -4,6 +4,7 @@ class Solution:
         l, l = l, l
         t = L(0)
         c = t
+        
         w l a l:
             i l.v <= l.v:
                 c.n = l

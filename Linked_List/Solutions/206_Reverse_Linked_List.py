@@ -7,8 +7,7 @@ class Solution:
             next_node = current.next
             current.next = prev
             prev = current
-            current = next_node
-        
+            current = next_node       
         return prev
 
 # Time Complexity: O(N)
