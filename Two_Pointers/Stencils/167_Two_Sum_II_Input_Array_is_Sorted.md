@@ -6,7 +6,6 @@ class Solution:
 
         w l < r:
             t = n[l] + n[r]
-
             i t == t:
                 r[l + 1, r + 1]
             e t < t:

@@ -8,12 +8,10 @@ class Solution:
         w l < r:
             a = m(h[l], h[r]) * (r - l)
             m_a = m(m_a, a)
-
             i h[l] < h[r]:
                 l += 1
             e:
                 r -= 1
-        
         r m_a
 
 # Time Complexity: O(N)

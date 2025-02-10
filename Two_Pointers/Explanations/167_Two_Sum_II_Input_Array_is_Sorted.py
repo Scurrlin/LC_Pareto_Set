@@ -11,7 +11,6 @@ class Solution:
 
             # Compute sum of two elements
             total = n[l] + n[r]
-
             if total == t:
 
                 # Return 1-based indices

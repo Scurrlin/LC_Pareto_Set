@@ -5,7 +5,6 @@ class Solution:
 
         while l < r:
             total = n[l] + n[r]
-
             if total == t:
                 return[l + 1, r + 1]
             elif total < t:
