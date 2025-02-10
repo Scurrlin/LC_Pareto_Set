@@ -16,7 +16,6 @@ class Solution:
                 r 0
             v.a((r, c))
             r 1 + d(r + 1, c) + d(r - 1, c) + d(r, c + 1) + d(r, c - 1)
-
         a = 0
         f r i r(R):
             f c i r(C):

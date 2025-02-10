@@ -3,6 +3,7 @@ class Solution:
 
         # Adjacency list for prerequisites
         prereq = {c: [] for c in range(numCourses)}
+
         for crs, pre in prerequisites:
             prereq[crs].append(pre)
 
@@ -11,7 +12,6 @@ class Solution:
 
         # Tracks visited nodes and cycle detection
         visit, cycle = set(), set()
-
         def dfs(crs):
 
             # Cycle detected → not possible to complete courses
@@ -41,7 +41,6 @@ class Solution:
             # Add course to order (post-order DFS)
             output.append(crs)
             return True
-
         for c in range(numCourses):
 
             # If cycle detected, return an empty list

@@ -11,15 +11,13 @@ class Solution:
             d(i+1, j)
             d(i-1, j)
             d(i, j+1)
-            d(i, j-1)
-        
+            d(i, j-1)  
         n_i = 0
         f i i r(l(g)):
             f j i r(l(g[0])):
                 i g[i][j] == '1':
                     n_i += 1
                     d(i, j)
-        
         r n_i
 
 # Time Complexity: O(M x N)

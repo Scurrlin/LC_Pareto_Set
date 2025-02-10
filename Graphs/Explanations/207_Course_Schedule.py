@@ -9,7 +9,6 @@ class Solution:
 
         # Tracks nodes in the current DFS path
         visiting = set()
-
         def dfs(crs):
 
             # Cycle detected

@@ -19,15 +19,12 @@ class Solution:
             d(r - 1, c, v, h[r][c])
             d(r, c + 1, v, h[r][c])
             d(r, c - 1, v, h[r][c])
-
         f c i r(C):
             d(0, c, p, h[0][c])
             d(R - 1, c, a, h[R - 1][c])
-
         f r i r(R):
             d(r, 0, p, h[r][0])
             d(r, C - 1, a, h[r][C - 1])
-
         r = []
         f r i r(R):
             f c i r(C):

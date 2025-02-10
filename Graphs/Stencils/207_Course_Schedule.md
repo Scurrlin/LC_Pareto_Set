@@ -5,15 +5,12 @@ class Solution:
 
         f c, p i p:
             p[c].a(p)
-
         v = s()
-
         d d(c):
             i c i v:
                 r F
             i p[c] == []:
                 r T
-
             v.a(c)
             f p i p[c]:
                 i n d(p):
@@ -21,7 +18,6 @@ class Solution:
             v.r(c)
             p[c] = []
             r T
-
         f c i r(n):
             i n d(c):
                 r F
