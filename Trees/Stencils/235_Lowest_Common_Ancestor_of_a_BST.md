@@ -3,6 +3,7 @@ class Solution:
     def lowestCommonAncestor(
         s, r: "T", p: "T", q: "T"
     ) -> "T":
+    
         w T:
             i r.v < p.v a r.v < q.v:
                 r = r.r

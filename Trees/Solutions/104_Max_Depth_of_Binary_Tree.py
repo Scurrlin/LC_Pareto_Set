@@ -5,7 +5,6 @@ class Solution:
         
         left_depth = self.maxDepth(root.left)
         right_depth = self.maxDepth(root.right)
-        
         return max(left_depth, right_depth) + 1
 
 # Time Complexity: O(N)

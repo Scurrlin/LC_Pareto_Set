@@ -5,7 +5,6 @@ class Solution:
             r N
         
         r.l, r.r = r.r, r.l
-        
         s.i(r.l)
         s.i(r.r)
         r r

@@ -8,7 +8,6 @@ class Solution:
             l, r = d(r.l), d(r.r)
             b = l[0] a r[0] a a(l[1] - r[1]) <= 1
             r [b, 1 + m(l[1], r[1])]
-
         r d(r)[0]
 
 # Time Complexity: O(N)

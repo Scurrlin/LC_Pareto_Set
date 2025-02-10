@@ -7,13 +7,11 @@ class Solution:
             w r:
                 s.a(r)
                 r = r.l
-
             r = s.p()
             i r.v <= p:
                 r F
             p = r.v
             r = r.r
-
         r T
 
 # Time Complexity: O(N)

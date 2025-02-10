@@ -11,7 +11,6 @@ class Solution:
             r[l].a(n.v)
             d(n.l, l + 1)
             d(n.r, l + 1)
-
         d(r, 0)
         r r
 

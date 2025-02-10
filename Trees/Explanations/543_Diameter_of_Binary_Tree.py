@@ -8,7 +8,6 @@ class Solution:
 
             # Allows modification of `res` inside the nested function
             nonlocal res
-
             if not root:
 
                 # Base case: height of an empty tree is 0

@@ -6,13 +6,11 @@ class Solution:
             while root:
                 stack.append(root)
                 root = root.left
-
             root = stack.pop()
             if root.val <= prev:
                 return False
             prev = root.val
             root = root.right
-
         return True
 
 # Time Complexity: O(N)

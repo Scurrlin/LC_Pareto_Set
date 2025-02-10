@@ -22,7 +22,6 @@ class Solution:
             prev = root.val
 
             # Move to right subtree
-
             root = root.right
 
         # If all nodes are in order, it's a valid BST

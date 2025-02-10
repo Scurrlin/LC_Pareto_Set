@@ -4,7 +4,6 @@ class Solution:
 
             # An empty subRoot is always a subtree
             return True
-
         if root == None:
 
             # If root is empty but subRoot is not, it can't be a subtree
