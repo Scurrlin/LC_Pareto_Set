@@ -7,10 +7,10 @@ class Solution:
         # Track the minimum value 
         curr_min = float("inf")
         
-        while start  <  end :
+        while start < end :
 
             # Compute middle index
-            mid = start + (end - start ) // 2
+            mid = start + (end - start)//2
 
             # Update minimum value
             curr_min = min(curr_min, nums[mid])
