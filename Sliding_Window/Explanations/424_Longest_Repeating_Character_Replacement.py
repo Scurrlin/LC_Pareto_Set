@@ -8,7 +8,7 @@ class Solution:
         l = 0
 
         # Maximum frequency of any character in the window
-        maxf = 0
+        maxfreq = 0
 
         # Right pointer expands the window
         for r in range(len(s)):
@@ -17,10 +17,10 @@ class Solution:
             count[s[r]] = 1 + count.get(s[r], 0)
 
             # Update max frequency
-            maxf = max(maxf, count[s[r]])
+            maxfreq = max(maxfreq, count[s[r]])
 
             # If more than `k` characters need to be replaced, shrink window
-            if (r - l + 1) - maxf > k:
+            if (r - l + 1) - maxfreq > k:
 
                 # Reduce count of leftmost character
                 count[s[l]] -= 1
