@@ -10,7 +10,7 @@ class Solution:
         # Alias for readability
         n = nums
         
-        while start < end :
+        while start < end:
 
             # Compute middle index
             m = start + (end - start)//2

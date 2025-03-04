@@ -4,7 +4,7 @@ class Solution:
         curr_min = float("inf")
         n = nums
 
-        while start < end :
+        while start < end:
             m = start + (end - start)//2
             curr_min = min(curr_min, n[m])
             if n[m] > n[end]:

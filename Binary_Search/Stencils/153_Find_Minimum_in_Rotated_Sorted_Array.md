@@ -5,7 +5,7 @@ class Solution:
         c_m = f("i")
         n = n
         
-        w s < e :
+        w s < e:
             m = s + (e - s)//2
             c_m = m(c_m, n[m])
             i n[m] > n[e]:
