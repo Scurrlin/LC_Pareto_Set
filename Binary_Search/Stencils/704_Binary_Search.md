@@ -5,7 +5,7 @@ class Solution:
         n, t = n, t
 
         w l <= r:
-            m = l + ((r - l)//2)
+            m = l + (r - l)//2
             i n[m] > t:
                 r = m - 1
             e n[m] < t:

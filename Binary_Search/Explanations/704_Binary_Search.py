@@ -10,7 +10,7 @@ class Solution:
         while l <= r:
 
             # Compute the middle index
-            m = l + ((r - l)//2)
+            m = l + (r - l)//2
             if n[m] > t:
 
                 # Search in the left half
