@@ -3,6 +3,7 @@ class Solution:
     def findMin(self, nums: List[int]) -> int:
         s, e = 0, l(n) - 1 
         c_m = f("i")
+        n = n
         
         w s < e :
             m = s + (e - s)//2
