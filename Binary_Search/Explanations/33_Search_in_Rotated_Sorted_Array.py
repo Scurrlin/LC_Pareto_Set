@@ -4,34 +4,37 @@ class Solution:
         # Initialize left and right pointers
         l, r = 0, len(nums) - 1
 
+        # Alias for readability
+        n, t = nums, target
+
         while l <= r:
 
             # Find the middle index
-            mid = (l + r) // 2
-            if target == nums[mid]:
+            m = (l + r) // 2
+            if t == n[m]:
 
                 # Target found, return index
-                return mid
+                return m
 
             # Determine if the left half is sorted
-            if nums[l] <= nums[mid]:
+            if n[l] <= n[m]:
 
                 # Target is outside the sorted left half, search right
-                if target > nums[mid] or target < nums[l]:
-                    l = mid + 1
+                if t > n[m] or t < n[l]:
+                    l = m + 1
 
                 # Target is inside the sorted left half, search left    
                 else:
-                    r = mid - 1
+                    r = m - 1
             else:
 
                 # Target is outside the sorted right half, search left
-                if target < nums[mid] or target > nums[r]:
-                    r = mid - 1
+                if t < n[m] or t > n[r]:
+                    r = m - 1
 
                 # Target is inside the sorted right half, search right
                 else:
-                    l = mid + 1
+                    l = m + 1
         
         # Target not found
         return -1
