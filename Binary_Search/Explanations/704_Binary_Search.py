@@ -4,15 +4,18 @@ class Solution:
         # Initialize left and right pointers
         l, r = 0, len(nums) - 1
 
+        # Alias for readability
+        n, t = nums, target
+
         while l <= r:
 
             # Compute the middle index
             m = l + ((r - l)//2)
-            if nums[m] > target:
+            if n[m] > t:
 
                 # Search in the left half
                 r = m - 1
-            elif nums[m] < target:
+            elif n[m] < t:
 
                 # Search in the right half
                 l = m + 1
