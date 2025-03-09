@@ -18,7 +18,7 @@ class Solution:
                 else:
                     res.append([n[i], n[j], n[k]])
                     j += 1
-                    while n[j] == n[j - 1] and j < k:
+                    while j < k and n[j] == n[j - 1]:
                         j += 1
         return res
 

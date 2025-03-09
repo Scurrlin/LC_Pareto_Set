@@ -38,7 +38,7 @@ class Solution:
                     j += 1
 
                     # Skip duplicate values
-                    while n[j] == n[j - 1] and j < k:
+                    while j < k and n[j] == n[j - 1]:
                         j += 1
         
         # Return all unique triplets
