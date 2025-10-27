@@ -1,5 +1,5 @@
 # Graphs
-
+# ======
 # A graph is a collection of nodes (or vertices) connected by edges. Graphs can
 # be directed or undirected.
 

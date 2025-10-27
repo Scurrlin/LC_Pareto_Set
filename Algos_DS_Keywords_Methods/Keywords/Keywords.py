@@ -1,4 +1,5 @@
 # 1 - Control Flow
+# ================
 # if
 
 x = 10
@@ -53,6 +54,7 @@ def some_function():
     pass
 
 # 2 - Exception Handling
+# ======================
 # try
 
 try:
@@ -89,6 +91,7 @@ x = 10
 assert x > 0, "x should be positive"
 
 # 3 - Function and Class Definitions
+# ==================================
 # def
 
 def greet(name):
@@ -107,6 +110,7 @@ class Person:
         self.age = age
 
 # 4 - Variable Scope and Namespace
+# ================================
 # global
 
 x = 10
@@ -134,6 +138,7 @@ del x
 # print(x) would raise NameError
 
 # 5 - Boolean and None
+# ====================
 # True
 
 is_active = True
@@ -153,6 +158,7 @@ if x is None:
     print("x is None")
 
 # 6 - Logical Operators
+# =====================
 # and
 
 x = 10
@@ -186,6 +192,7 @@ if "banana" in fruits:
     print("Banana is in the list")
 
 # 7 - Asynchronous Programming
+# ============================
 # async 
 
 import asyncio
@@ -206,12 +213,14 @@ async def say_hello():
 asyncio.run(say_hello())
 
 # 8 - Context Management
+# ======================
 # with
 
 with open("test.txt", "w") as file:
     file.write("Hello, world!")
 
 # 9 - Importing Modules
+# =====================
 # import
 
 import math
@@ -223,6 +232,7 @@ from math import sqrt
 print(sqrt(16))
 
 # 10 - OOP
+# ========
 # class
 
 class Person:
@@ -241,6 +251,7 @@ del person.name
 # Accessing person.name now would raise an AttributeError
 
 # 11 - Miscellaneous
+# ==================
 # as
 
 import math as m
