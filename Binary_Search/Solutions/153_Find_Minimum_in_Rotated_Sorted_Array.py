@@ -1,17 +1,16 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         start, end = 0, len(nums) - 1 
-        curr_min = float("inf")
-        n = nums
+        currMin = float("inf")
 
         while start < end:
-            m = start + (end - start)//2
-            curr_min = min(curr_min, n[m])
-            if n[m] > n[end]:
-                start = m + 1
+            mid = start + (end - start)//2
+            currMin = min(currMin, nums[mid])
+            if nums[mid] > nums[end]:
+                start = mid + 1
             else:
-                end = m - 1
-        return min(curr_min, n[start])
+                end = mid - 1
+        return min(currMin, nums[start])
 
 # Time Complexity: O(log N)
 # Space Complexity: O(1)
