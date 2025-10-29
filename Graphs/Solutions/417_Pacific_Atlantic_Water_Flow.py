@@ -4,20 +4,20 @@ class Solution:
         pac, atl = set(), set()
 
         def dfs(r, c, visit, prevHeight):
-            if (
-                (r, c) in visit
+            if ((r, c) in visit
                 or r < 0
                 or c < 0
                 or r == ROWS
                 or c == COLS
-                or heights[r][c] < prevHeight
-            ):
+                or heights[r][c] < prevHeight):
                 return
+            
             visit.add((r, c))
             dfs(r + 1, c, visit, heights[r][c])
             dfs(r - 1, c, visit, heights[r][c])
             dfs(r, c + 1, visit, heights[r][c])
             dfs(r, c - 1, visit, heights[r][c])
+        
         for c in range(COLS):
             dfs(0, c, pac, heights[0][c])
             dfs(ROWS - 1, c, atl, heights[ROWS - 1][c])

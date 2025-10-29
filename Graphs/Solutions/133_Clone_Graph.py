@@ -1,16 +1,18 @@
 class Solution:
     def cloneGraph(self, node: "Node") -> "Node":
-        oldToNew = {}
+        newGraph = {}
 
         def dfs(node):
-            if node in oldToNew:
-                return oldToNew[node]
+            if node in newGraph:
+                return newGraph[node]
+
             copy = Node(node.val)
-            oldToNew[node] = copy
+            newGraph[node] = copy
             for n in node.neighbors:
                 copy.neighbors.append(dfs(n))
             return copy
-        return dfs(node) if node else None
 
+        return dfs(node) if node else None
+    
 # Time Complexity: O(N + E)
 # Space Complexity: O(N)
