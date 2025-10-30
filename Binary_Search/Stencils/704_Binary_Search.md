@@ -2,7 +2,6 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l, r = 0, l(n) - 1
-        n, t = n, t
 
         w l <= r:
             m = l + (r - l)//2
