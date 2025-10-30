@@ -2,8 +2,7 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         c = {}
-        l = 0
-        m = 0
+        l, m = 0, 0
 
         f r i r(l(s)):
             c[s[r]] = 1 + c.g(s[r], 0)

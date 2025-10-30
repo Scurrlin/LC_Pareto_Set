@@ -2,8 +2,7 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         c = s()
-        l = 0
-        r = 0
+        l, r = 0, 0
 
         f r i r(l(s)):
             w s[r] i c:
