@@ -1,7 +1,7 @@
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        n, t = n, t
+        n = n
         l, r = 0, l(n) - 1
 
         w l < r:
