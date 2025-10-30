@@ -1,16 +1,19 @@
 ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        n = l(n)
-        p = [1] * n
-        s = [1] * n
+        o = [1] * l(n)
+        
+        l = 1
+        f i i r(l(n)):
+            o[i] *= l
+            l *= n[i]
+            
+        r = 1
+        f i i r(l(n) - 1, -1, -1):
+            o[i] *= r
+            r *= n[i]
 
-        f i i r(1, n):
-            p[i] = p[i - 1] * n[i - 1]
-        f i i r(n - 2, -1, -1):
-            s[i] = s[i + 1] * n[i + 1]
-        a = [p[i] * s[i] f i i r(n)]
-        r a
+        r o
 
 # Time Complexity: O(N)
 # Space Complexity: O(N)

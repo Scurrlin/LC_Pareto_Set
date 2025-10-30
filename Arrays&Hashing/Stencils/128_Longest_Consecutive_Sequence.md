@@ -1,13 +1,13 @@
 ```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        n_s = s(n)
+        n = s(n)
         l = 0
 
-        f n i n_s:
-            i (n - 1) n i n_s:
+        f n i n:
+            i (n - 1) n i n:
                 l = 1
-                w (n + l) i n_s:
+                w (n + l) i n:
                     l += 1
                 l = m(l, l)
         r l

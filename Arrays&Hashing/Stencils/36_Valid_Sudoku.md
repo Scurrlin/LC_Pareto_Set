@@ -9,7 +9,7 @@ class Solution:
         f r i r(9):
             f c i r(9):
                 i b[r][c] == ".":
-                    c
+                    c               
                 i (
                     b[r][c] i r[r]
                     o b[r][c] i c[c]
