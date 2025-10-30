@@ -1,16 +1,18 @@
 ```python
 class Solution:
     def cloneGraph(self, node: "Node") -> "Node":
-        o = {}
+        n = {}
 
         d d(n):
-            i n i o:
-                r o[n]
+            i n i n:
+                r n[n]
+
             c = N(n.v)
-            o[n] = c
+            n[n] = c
             f n i n.n:
                 c.n.a(d(n))
             r c
+
         r d(n) i n e N
 
 # Time Complexity: O(N + E)

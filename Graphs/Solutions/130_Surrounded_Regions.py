@@ -20,6 +20,7 @@ class Solution:
         for j in range(n):
             if b[0][j] == 'O': dfs(0, j)
             if b[m - 1][j] == 'O': dfs(m - 1, j)
+            
         for x in range(m):
             for y in range(n):
                 if b[x][y] == 'O':

@@ -2,10 +2,10 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         p = {i: [] f i i r(n)}
-
         f c, p i p:
-            p[c].a(p)
+            p[c].a(p)        
         v = s()
+
         d d(c):
             i c i v:
                 r F
@@ -18,6 +18,7 @@ class Solution:
             v.r(c)
             p[c] = []
             r T
+        
         f c i r(n):
             i n d(c):
                 r F
