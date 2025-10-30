@@ -4,7 +4,8 @@ class Solution:
         i n r:
             r N
         
-        r.l, r.r = r.r, r.l
+        r.l = r.r
+        r.r = r.l
         s.i(r.l)
         s.i(r.r)
         r r

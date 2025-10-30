@@ -2,13 +2,20 @@
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         d d(r):
-            i n r:
-                r [T, 0]
+            i n n:
+                r 0
+            
+            l = h(n.l)
+            i l == -1:
+                r -1
+            r = h(n.r)
+            i r == -1:
+                r -1
+            i a(l - r) > 1:
+                r -1
+            r m(l, r) + 1
 
-            l, r = d(r.l), d(r.r)
-            b = l[0] a r[0] a a(l[1] - r[1]) <= 1
-            r [b, 1 + m(l[1], r[1])]
-        r d(r)[0]
+        r h(r) != -1
 
 # Time Complexity: O(N)
 # Space Complexity: O(H)

@@ -4,7 +4,8 @@ class Solution:
         i n p a n q:
             r T
         i p a q a p.v == q.v:
-            r s.i(p.l, q.l) a s.i(p.r, q.r)
+            r (s.i(p.l, q.l)
+                a s.i(p.r, q.r))
         e:
             r F
 
