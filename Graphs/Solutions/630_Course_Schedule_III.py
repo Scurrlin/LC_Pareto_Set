@@ -1,6 +1,6 @@
 class Solution:
     def scheduleCourse(self, courses: List[List[int]]) -> int:
-        courses.sort(key = lambda x: x[1])
+        courses.sort(key = lambda x:x[1])
         maxHeap, total = [], 0
         for duration, lastDay in courses:
             total += duration

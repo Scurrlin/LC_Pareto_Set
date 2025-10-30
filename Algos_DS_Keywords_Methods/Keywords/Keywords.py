@@ -99,7 +99,7 @@ def greet(name):
 
 # lambda
 
-add = lambda x, y: x + y
+add = lambda x, y:x + y
 print(add(2, 3))
 
 # class
